@@ -12,7 +12,6 @@ config :szetty_bot,
   discord_guild_id: 406_770_575_994_912_769
 
 config :nostrum,
-  token: "MTAwNTQwNDI1MTQ3Mzg1MDQyOA.GxO8gv.7ljx76EK85zeOyEqkpDEwJrVK1w1qxjuXPCDuA",
   gateway_intents: [
     :guild_messages,
     :message_content
