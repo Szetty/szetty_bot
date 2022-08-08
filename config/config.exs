@@ -8,8 +8,7 @@
 import Config
 
 config :szetty_bot,
-  ecto_repos: [SzettyBot.Repo],
-  discord_guild_id: 406_770_575_994_912_769
+  ecto_repos: [SzettyBot.Repo]
 
 config :nostrum,
   gateway_intents: [
