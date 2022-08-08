@@ -20,6 +20,11 @@ if System.get_env("PHX_SERVER") do
   config :szetty_bot, SzettyBotWeb.Endpoint, server: true
 end
 
+token = System.get_env("DISCORD_BOT_TOKEN") || raise "ENV variable DISCORD_BOT_TOKEN is not set"
+
+config :nostrum,
+  token: token
+
 if config_env() == :prod do
   # database_path =
   #   System.get_env("DATABASE_PATH") ||
